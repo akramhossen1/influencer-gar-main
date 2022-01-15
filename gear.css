@@ -1,14 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #AAAAAA; */
+}
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
+    background-color: #ffffff;
 }
         /*-------------------------------------------------*\
                 This is nav section of this projects 
         /*----------------------------------------------------*/
+nav{
+    margin: 0 10px;
+}
 .menu-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0, auto;
 }
 .bar ul{
     display: flex;
@@ -25,11 +34,257 @@ body{
 p1{
     font-size: 24px;
 }
+.fa-search.fa-dolly-flatbed{
+    width: 24px;
+    height: 24px;
+    margin: 0px 20px;
+}
+
+/* .animate{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+    color:transparent;
+}
+.animate::before{
+    content:'Strat your journey as influencer';
+    position: absolute;
+    top:0;
+    left:0;
+    color:#22bedd;
+    animation: typing 3s liner infinite;
+}
+@keyframes typing {
+    contaier{
+        width : 100%;}
+        
+        0%{
+            content: 'S|';
+        }
+        2%{
+            content: 't|';
+        }
+        4%{
+            content: 'a|';
+        }
+        6%{
+            content: 't|';
+        }
+        8%{
+            content: '';
+        }
+        10%{
+            content: 'y|';
+        }
+        12%{
+            content: 'o|';
+        }
+        14%{
+            content: 'u|';
+        }
+        16%{
+            content: 'r|';
+        }
+        18%{
+            content: '';
+        }
+        20%{
+            content: 'j|';
+        }
+        22%{
+            content: 'o|';
+        }
+        24%{
+            content: 'u|';
+        }
+        26%{
+            content: 'r|';
+        }
+        28%{
+            content: 'n|';
+        }
+        30%{
+            content: 'e|';
+        }
+        32%{
+            content: 'y|';
+        }
+        34%{
+            content: ' ';
+        }
+        36%{
+            content: 'a|';
+        }
+        38%{
+            content: 's|';
+        }
+        40%{
+            content: ' ';
+        }
+        42%{
+            content: 'a|';
+        }
+        44%{
+            content: 's|';
+        }
+        46%{
+            content: ' ';
+        }
+        48%{
+            content: 'i|';
+        }
+        50%{
+            content: 'n|';
+        }
+        52%{
+            content: 'f|'; 
+        }
+        54%{
+            content: 'l|'; 
+        }
+        56%{
+            content: 'u|'; 
+        }
+        58%{
+            content: 'e|'; 
+        }
+        60%{
+            content: 'n|'; 
+        }
+        62%{
+            content: 'c|'; 
+        }
+        64%{
+            content: 'e|'; 
+        }
+        66%{
+            content: 'r|'; 
+        }
+        68%{
+            content: '  ';
+        }
+       
+        69%{
+            content: 'r|'; 
+        }
+        70%{
+            content: 'e|'; 
+        }
+        71%{
+            content: 'c|'; 
+        }
+        72%{
+            content: 'n|'; 
+        }
+        73%{
+            content: 'e|'; 
+        }
+        74%{
+            content: 'u|'; 
+        }
+        75%{
+            content: 'l|'; 
+        }
+        76%{
+            content: 'f|'; 
+        }
+        77%{
+            content: 'n|'; 
+        }
+        78%{
+            content: 'i|'; 
+        }
+        79%{
+            content: ' '; 
+        }
+        80%{
+            content: 's|'; 
+        }
+        81%{
+            content: 'a|'; 
+        }
+        82%{
+            content: ' '; 
+        }
+        83%{
+            content: 'y|'; 
+        }
+        84%{
+            content: 'e|'; 
+        }
+        85%{
+            content: 'n|'; 
+        }
+        86%{
+            content: 'r|'; 
+        }
+        87%{
+            content: 'u|'; 
+        }
+        88%{
+            content: 'o|'; 
+        }
+        89%{
+            content: 'j|'; 
+        }
+        90%{
+            content: 'r|'; 
+        }
+        91%{
+            content: 'u|'; 
+        }
+        92%{
+            content: 'o|'; 
+        }
+        93%{
+            content: 'y|'; 
+        }
+        94%{
+            content: 'r|'; 
+        }
+        95%{
+            content: ' '; 
+        }
+        96%{
+            content: 't|'; 
+        }
+        97%{
+            content: 'r|'; 
+        }
+        98%{
+            content: 'a|'; 
+        }
+        99%{
+            content: 't|'; 
+        }
+        100%{
+            content: 'S|'; 
+        }*/ 
+        
+    
+
   /* <!-- ------------------------section-1 ---------------------------------------> */
 .section-1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0, auto;
+    margin-bottom: 50px;
+    
+}
+h1{
+    width: 600px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.caption:hover h1{
+    font-size: 40px;
+    color:hsl(293, 100%, 40%);
+}
+p2{
+    margin-bottom: 40px;
+    font-size: 20px;
 }
 .caption{
     width: 600px;
@@ -41,6 +296,7 @@ p1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 .button-1 p1{    
     font-size: 20px;  
@@ -74,6 +330,8 @@ p1{
     /* justify-content: center; */
     align-items: center;
     margin-left: 300px;
+    margin: 0, auto;
+    background-color: #faf9f9f1;
 }
 .prodects{
     
@@ -81,6 +339,7 @@ p1{
     grid-template-columns: repeat(3, 329px);
     align-items: center;
     grid-gap: 30px;
+    margin-top: 30px;
     
 
 }
@@ -89,13 +348,9 @@ p1{
     height: 476px;
     background-color: #FFFFFF;
     border-radius: 8px;
-    
-
 }
 .albam{
-    margin-left: 14.5px;
-    
-   
+    margin-left: 14.5px;   
 }
 .fa-splotch{
     font-size: 16;
@@ -107,7 +362,7 @@ p1{
     height: 256px;
 }
 h2{
-    font-size: 28px;
+    font-size: 70px;
     font-weight: 500;
     margin: 0px;
     text-align: center;
@@ -116,6 +371,22 @@ h2{
 }
 h3{
     margin: 0px;
+}
+.see{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+h6{
+    color: #E02C6D;
+    font-size: 20px;
+
+}
+.fa-arrow-right.root{
+
+    color: #E02C6D;
+    font-size: 20px;
+    margin-left: 8px;
 }
 
 /*----------------------------------------------- private-section---------------------------------*/
@@ -127,11 +398,16 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+    margin: 0, auto;
+   }
+   .finish{
+       margin-left: 80px;
    }
 .end{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: cornsilk;
 }
 .personat-products img{
     width: 404px;
@@ -154,6 +430,8 @@ footer{
     font-family: 'Poppins', sans-serif;
     background-color: black;   
     margin-top: 20px;
+    /* margin: 0, auto; */
+    
 }
 h2{
     font-size: 24px;
@@ -186,5 +464,7 @@ p{
     width: 262px;
     height: 139px;
     margin-left: 580px;
+    padding-top: 25px;
     background-color: black;
+    margin-top: 100px;
 }
