@@ -25,21 +25,36 @@ p1{
     font-size: 24px;
 }
   /* <!-- ------------------------section-1 ---------------------------------------> */
-p2{
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caption{
+    width: 600px;
+}
+  p2{
     font-size: 15px;
 }
-.button-1 p1{
-    
-    font-size: 16px;
-    
-    
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-1 p1{    
+    font-size: 20px;  
 }
 .button-1{
     width: 196px;
     background-color: #E02C6D;
     border-radius: 41px;
     padding-left: 15px;
-
+}
+.button-1 img{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-left: 10px;
 }
 .camera img{
     width: 440px;
