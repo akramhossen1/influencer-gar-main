@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
 }
         /*-------------------------------------------------*\
                 This is nav section of this projects 
@@ -27,7 +28,7 @@ p1{
   /* <!-- ------------------------section-1 ---------------------------------------> */
 .section-1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .caption{
@@ -60,9 +61,62 @@ p1{
     width: 440px;
     height: 414px;
 }
+.fa-arrow-right{
+    font-size: 16px;
+    color: white;
+    margin-left: 15px;
+}
 
+/* <!-- ------------------------section-3 ---------------------------------------> */
+.section-3{
+    width: 1047px;
+    display: block;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 300px;
+}
+.prodects{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 329px);
+    align-items: center;
+    grid-gap: 30px;
+    
 
+}
+.grid{
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    
 
+}
+.albam{
+    margin-left: 14.5px;
+    
+   
+}
+.fa-splotch{
+    font-size: 16;
+    color: #FB8200;;
+}
+.fream img{
+    margin-top: 17px;
+    width: 300px;
+    height: 256px;
+}
+h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+h3{
+    margin: 0px;
+}
 
 
 
@@ -82,6 +136,7 @@ p1{
 footer{
     font-family: 'Poppins', sans-serif;
     background-color: black;   
+    margin-top: 20px;
 }
 h2{
     font-size: 24px;
