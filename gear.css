@@ -118,10 +118,27 @@ h3{
     margin: 0px;
 }
 
+/*----------------------------------------------- private-section---------------------------------*/
 
-
-
-
+.private-section{
+    width: 1047px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+   }
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personat-products img{
+    width: 404px;
+    height: 270px;
+    padding: 10px;
+    border-radius: 8px;
+}
 
 
 
