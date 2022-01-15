@@ -5,13 +5,20 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    /* background-color: #dadada; */
+    width: 1110px;
+}
+.main{
+    margin-left: 350px;
+    background-color: #fafafaf1;
 }
         /*-------------------------------------------------*\
                 This is nav section of this projects 
         /*----------------------------------------------------*/
 nav{
-    margin: 0 10px;
+    width: 1047px;
+    margin-left: 350px;
+    background-color: lightcyan;
 }
 .menu-bar{
     display: flex;
@@ -40,7 +47,246 @@ p1{
     margin: 0px 20px;
 }
 
-/* .animate{
+
+        
+    
+
+  /* <!-- ------------------------section-1 ---------------------------------------> */
+.section-first{
+    width: 1047px;
+    margin: 0, auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:300px ; */
+    margin-bottom: 50px;
+    background-color: white ;
+    
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+h1:hover{
+    font-size: 40px;
+    color:hsl(293, 100%, 40%);
+}
+p2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+/* .caption{
+   
+} */
+  p2{
+    font-size: 15px;
+}
+.button-1{
+     margin-top: 30px;
+}
+.button-1 p1{    
+    font-size: 20px;  
+}
+.button-1{
+    width: 196px;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding-left: 15px;
+}
+.button-2{
+    width: 170px;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding-left: 15px;
+}
+.button-1 img{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.camera img{
+    width: 440px;
+    height: 414px;
+}
+.fa-arrow-right{
+    font-size: 16px;
+    color: white;
+    margin-left: 15px;
+}
+
+/* <!-- ------------------------section-3 ---------------------------------------> */
+.section-3{
+    width: 1047px;
+    /* display: block; */
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-left: 300px; */
+    /* margin: 0, auto; */
+    /* background-color: #ecd0d0f1; */
+}
+.prodects{
+    display: grid;
+    grid-template-columns: repeat(3, 329px);
+    align-items: center;
+    grid-gap: 30px;
+    margin-top: 30px;
+    
+
+}
+.grid{
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #e6e5dd;
+}
+.albam{
+    margin-left: 14.5px;   
+}
+.fa-splotch{
+    font-size: 16;
+    color: #FB8200;;
+}
+.fream img{
+    margin-top: 17px;
+    width: 300px;
+    height: 256px;
+}
+h2{
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+h3{
+    margin: 0px;
+}
+.see{
+    width: 1047px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin:35px 0px 50px 0px;
+}
+h6{
+    color: #E02C6D;
+    font-size: 20px;
+
+}
+.fa-arrow-right.root{
+
+    color: #E02C6D;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.button-2{
+    display: flex;
+    align-items: center;
+}
+/*----------------------------------------------- private-section---------------------------------*/
+
+.private-section{
+    width: 1047px;
+    border: 1px solid #ecd9d9;
+    background-color: white;
+    /* margin-left: 300px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* margin: 0, auto; */
+   }
+   .finish{
+       margin-left: 80px;
+   }
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornsilk;
+}
+.personat-products img{
+    width: 404px;
+    height: 270px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+        /*-------------------------------------------------*\
+                This is footer section of this projects 
+        /*----------------------------------------------------*/
+footer{
+    font-family: 'Poppins', sans-serif;
+    width: 1047px;
+    background-color: black;   
+    margin-top: 20px;
+    /* margin: 0, auto; */
+    
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin:0px 0px;
+}
+
+p{
+    font-size: 14px;
+    /* font-weight: bold; */
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    margin:0px 0px;
+}
+.fa-instagram-square, .fa-dribbble-square, .fa-twitter-square, .fa-youtube-square{
+    font-size: 23px;
+    color: white;
+    margin-right: 16px;
+}
+.awesome-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 262px;
+    height: 139px;
+    margin-left: 392.5px;
+    padding-top: 25px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+/*------------------------------------- responsive section------------------------------------------ */
+@media screen and(max-width : 688px){
+    .menu-bar{
+           flex-direction : column;
+    }
+    .section-1{
+        background-color: darkgoldenrod;
+       display: flex;
+       flex-direction: column;
+    }
+    .prodects{
+        background-color : red;
+grid-template-columns : repeat(1, 1fr);}
+
+    }
+    
+
+    /* .animate{
     font-size: 60px;
     white-space: nowrap;
     position: relative;
@@ -260,211 +506,3 @@ p1{
         100%{
             content: 'S|'; 
         }*/ 
-        
-    
-
-  /* <!-- ------------------------section-1 ---------------------------------------> */
-.section-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0, auto;
-    margin-bottom: 50px;
-    
-}
-h1{
-    width: 600px;
-    font-size: 40px;
-    margin-bottom: 20px;
-    
-}
-.caption:hover h1{
-    font-size: 40px;
-    color:hsl(293, 100%, 40%);
-}
-p2{
-    margin-bottom: 40px;
-    font-size: 20px;
-}
-.caption{
-    width: 600px;
-}
-  p2{
-    font-size: 15px;
-}
-.button-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-.button-1 p1{    
-    font-size: 20px;  
-}
-.button-1{
-    width: 196px;
-    background-color: #E02C6D;
-    border-radius: 41px;
-    padding-left: 15px;
-}
-.button-1 img{
-    width: 20px;
-    height: 20px;
-    color: white;
-    margin-left: 10px;
-}
-.camera img{
-    width: 440px;
-    height: 414px;
-}
-.fa-arrow-right{
-    font-size: 16px;
-    color: white;
-    margin-left: 15px;
-}
-
-/* <!-- ------------------------section-3 ---------------------------------------> */
-.section-3{
-    width: 1047px;
-    display: block;
-    /* justify-content: center; */
-    align-items: center;
-    margin-left: 300px;
-    margin: 0, auto;
-    background-color: #faf9f9f1;
-}
-.prodects{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 329px);
-    align-items: center;
-    grid-gap: 30px;
-    margin-top: 30px;
-    
-
-}
-.grid{
-    width: 329px;
-    height: 476px;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-}
-.albam{
-    margin-left: 14.5px;   
-}
-.fa-splotch{
-    font-size: 16;
-    color: #FB8200;;
-}
-.fream img{
-    margin-top: 17px;
-    width: 300px;
-    height: 256px;
-}
-h2{
-    font-size: 70px;
-    font-weight: 500;
-    margin: 0px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-h3{
-    margin: 0px;
-}
-.see{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-h6{
-    color: #E02C6D;
-    font-size: 20px;
-
-}
-.fa-arrow-right.root{
-
-    color: #E02C6D;
-    font-size: 20px;
-    margin-left: 8px;
-}
-
-/*----------------------------------------------- private-section---------------------------------*/
-
-.private-section{
-    width: 1047px;
-    background-color: white;
-    margin-left: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    margin: 0, auto;
-   }
-   .finish{
-       margin-left: 80px;
-   }
-.end{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: cornsilk;
-}
-.personat-products img{
-    width: 404px;
-    height: 270px;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-
-
-
-
-
-
-
-        /*-------------------------------------------------*\
-                This is footer section of this projects 
-        /*----------------------------------------------------*/
-footer{
-    font-family: 'Poppins', sans-serif;
-    background-color: black;   
-    margin-top: 20px;
-    /* margin: 0, auto; */
-    
-}
-h2{
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 36px;
-    color: white;
-    text-align: center;
-    margin:0px 0px;
-}
-
-p{
-    font-size: 14px;
-    /* font-weight: bold; */
-    line-height: 24px;
-    color: white;
-    text-align: center;
-    margin:0px 0px;
-}
-.fa-instagram-square, .fa-dribbble-square, .fa-twitter-square, .fa-youtube-square{
-    font-size: 23px;
-    color: white;
-    margin-right: 16px;
-}
-.awesome-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer{
-    width: 262px;
-    height: 139px;
-    margin-left: 580px;
-    padding-top: 25px;
-    background-color: black;
-    margin-top: 100px;
-}
