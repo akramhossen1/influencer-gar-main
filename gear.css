@@ -1,508 +1,404 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* background-color: #AAAAAA; */
 }
 body{
-    font-family: 'Poppins', sans-serif;
-    /* background-color: #dadada; */
-    width: 1110px;
+    background-color: #434244;
+   
 }
-.main{
-    margin-left: 350px;
-    background-color: #fafafaf1;
-}
-        /*-------------------------------------------------*\
-                This is nav section of this projects 
-        /*----------------------------------------------------*/
-nav{
-    width: 1047px;
-    margin-left: 350px;
-    background-color: lightcyan;
-}
+/* --------------------------hearder section --------------------------------------*/
 .menu-bar{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(210, 241, 239);
+    height: 10vh;
+}
+.menu-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0, auto;
+    margin: 0 40px 0 10px;
 }
 .bar ul{
-    display: flex;
-    
-}
-.bar>ul>li{
     list-style: none;
-    margin-right: 30px;
-}
-.bar>ul>li>a{
-    text-decoration: none;
-    font-size: 16px;
-}
-p1{
-    font-size: 24px;
-}
-.fa-search.fa-dolly-flatbed{
-    width: 24px;
-    height: 24px;
-    margin: 0px 20px;
-}
-
-
-        
+    display: flex;
+    align-items: center;
     
+}
+.bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.bar ul li{
+    margin-left: 40px;
+    margin-top: 10px;    
+}
+.title p1{
+    font-size: 40px;
+}
+/* --------------------------hearder section --------------------------------------*/
 
-  /* <!-- ------------------------section-1 ---------------------------------------> */
-.section-first{
-    width: 1047px;
-    margin: 0, auto;
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+.banner{
+    display:flex;
+    height: 80vh;
+}
+.banner-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 40px;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.text-content{
+    max-width: 600px;
+    /* font-size: 30px; */
+
+}
+.banner-text{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.button-1{
+    font-size: 30px;
+    color: white;
+    background: #E02C6D;
+    padding: 5px 15px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bolder;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+
+.banner-title::before{
+    content:'Strat your journey as influencer';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #201f1c;
+    animation: typing 6s linear 3s infinite;
+}
+@keyframes typing {
+        0%{
+            content: 'S|';
+        }
+        2%{
+            content: 'St|';
+        }
+        4%{
+            content: 'Sta|';
+        }
+        6%{
+            content: 'Stat|';
+        }
+        8%{
+            content: '|';
+        }
+        10%{
+            content: 'Stat y|';
+        }
+        12%{
+            content: 'Stat yo|';
+        }
+        14%{
+            content: 'Stat you|';
+        }
+        16%{
+            content: 'Stat your|';
+        }
+        18%{
+            content: '|';
+        }
+        20%{
+            content: 'Stat your j|';
+        }
+        22%{
+            content: 'Stat your jo|';
+        }
+        24%{
+            content: 'Stat your jou|';
+        }
+        26%{
+            content: 'Stat your jour|';
+        }
+        28%{
+            content: 'Stat your journ|';
+        }
+        30%{
+            content: 'Stat your journe|';
+        }
+        32%{
+            content: 'Stat your journey|';
+        }
+        34%{
+            content: '|';
+        }
+        36%{
+            content: 'Stat your journey a|';
+        }
+        38%{
+            content: 'Stat your journey as|';
+        }
+        40%{
+            content: '|';
+        }
+        42%{
+            content: 'Stat your journey as i|';
+        }
+        44%{
+            content: 'Stat your journey as in|';
+        }
+        46%{
+            content: 'Stat your journey as inf| ';
+        }
+        48%{
+            content: 'Stat your journey as infu|';
+        }
+        50%{
+            content: 'Stat your journey as infue|';
+        }
+        52%{
+            content: 'Stat your journey as infuen|'; 
+        }
+        54%{
+            content: 'Stat your journey as infuenc|'; 
+        }
+        56%{
+            content: 'Stat your journey as infuence|'; 
+        }
+        58%{
+            content: 'Stat your journey as infuencer|'; 
+        }
+        60%{
+            content: 'Stat your journey as infuencer |'; 
+        }
+        61%,
+        68%{
+            content: 'Stat your journey as infuencer|'; 
+        }
+        69%{
+            content: 'Stat your journey as infuence|'; 
+        }
+        70%{
+            content: 'Stat your journey as infuenc|'; 
+        }
+        71%{
+            content: 'Stat your journey as infuen|';
+        }
+        72%{
+            content: 'Stat your journey as infue|'; 
+        }
+        73%{
+            content: 'Stat your journey as infu|'; 
+        }
+        74%{
+            content: 'Stat your journey as inf|'; 
+        }
+        75%{
+            content: 'Stat your journey as in|'; 
+        }
+        76%{
+            content: 'Stat your journey as i|'; 
+        }
+        77%{
+            content: 'Stat your journey as |'; 
+        }
+        78%{
+            content: 'Stat your journey as|'; 
+        }
+        79%{
+            content: 'Stat your journey a|'; 
+        }
+        80%{
+            content: 'Stat your journey |'; 
+        }
+        81%{
+            content: 'Stat your journey|'; 
+        }
+        82%{
+            content: 'Stat your journe|'; 
+        }
+        83%{
+            content: 'Stat your journ|'; 
+        }
+        84%{
+            content: 'Stat your jour|'; 
+        }
+        85%{
+            content: 'Stat your jou|'; 
+        }
+        86%{
+            content: 'Stat your jo|'; 
+        }
+        87%{
+            content: 'Stat your |'; 
+        }
+        88%{
+            content: 'Stat your|'; 
+        }
+        89%{
+            content: 'Stat you|'; 
+        }
+        90%{
+            content: 'Stat yo|'; 
+        }
+        91%{
+            content: 'Stat y|'; 
+        }
+        92%{
+            content: 'Stat |'; 
+        }
+        93%{
+            content: 'Stat|'; 
+        }
+        94%{
+            content: 'Sta|'; 
+        }
+        95%{
+            content: 'St|'; 
+        }
+        96%{
+            content: 'S|'; 
+        }
+        97%{
+            content: '|'; 
+        }
+        98%{
+            content: '|'; 
+        }
+        99%{
+            content: '|'; 
+        }
+        100%{
+            content: '|'; 
+        }
+    }
+        /*-----------------------section-2--------------------------*/                               
+ .section-3{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+ }
+ h2{
+     text-align: center;
+     font-size: 60px;
+     font-weight: 700;
+ }
+ .prodects{
+     display: grid;
+     grid-template-columns: repeat(3, 318px);
+     align-items: center;
+     grid-column-gap: 40px;
+     grid-row-gap: 40px;    
+     margin: 30px 0px 0px 60px;       
+ }
+ .grid{
+     /* background-color: thistle; */
+     /* margin-left: 20px; */     
+ }
+.albam{
+    border-radius: 15px;
+    /* margin-bottom: 15px; */
+    border: 2px solid wheat ;
+    background-color: wheat ;
+    padding: 8px;
+    margin-bottom: 30px;    
+}    
+.see{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 80px;
+    margin-bottom: 50px;   
+    border-radius: 25px;
+    background-color: #E02C6D;
+    
+}
+.fa-arrow-right{
+    margin-left: 20px;
+}
+ /*-------------------------section-2---------------------------*/
+/* <!-- ------------------------section-3 ---------------------------------------> */
+
+.private-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.end{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left:300px ; */
-    margin-bottom: 50px;
-    background-color: white ;
-    
 }
-h1{
-    font-size: 20px;
-    margin-bottom: 20px;
-    
-}
-h1:hover{
-    font-size: 40px;
-    color:hsl(293, 100%, 40%);
-}
-p2{
+.personat-products{
+    flex: 1;
+    margin-left: 50px;
     margin-bottom: 40px;
-    font-size: 20px;
 }
-/* .caption{
-   
-} */
-  p2{
-    font-size: 15px;
+.finish{
+    flex: 1;
 }
-.button-1{
-     margin-top: 30px;
-}
-.button-1 p1{    
-    font-size: 20px;  
-}
-.button-1{
-    width: 196px;
+.but{
     background-color: #E02C6D;
-    border-radius: 41px;
-    padding-left: 15px;
+    border-radius: 25px;
 }
-.button-2{
-    width: 170px;
-    background-color: #E02C6D;
-    border-radius: 41px;
-    padding-left: 15px;
-}
-.button-1 img{
-    width: 20px;
-    height: 20px;
-    color: white;
-    margin-left: 10px;
-}
-.camera img{
-    width: 440px;
-    height: 414px;
-}
-.fa-arrow-right{
-    font-size: 16px;
-    color: white;
-    margin-left: 15px;
-}
+/*-------------------------------------- footer--------------------------------- */
 
-/* <!-- ------------------------section-3 ---------------------------------------> */
-.section-3{
-    width: 1047px;
-    /* display: block; */
-    /* justify-content: center; */
-    align-items: center;
-    /* margin-left: 300px; */
-    /* margin: 0, auto; */
-    /* background-color: #ecd0d0f1; */
-}
-.prodects{
-    display: grid;
-    grid-template-columns: repeat(3, 329px);
-    align-items: center;
-    grid-gap: 30px;
-    margin-top: 30px;
-    
-
-}
-.grid{
-    width: 329px;
-    height: 476px;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    border: 1px solid #e6e5dd;
-}
-.albam{
-    margin-left: 14.5px;   
-}
-.fa-splotch{
-    font-size: 16;
-    color: #FB8200;;
-}
-.fream img{
-    margin-top: 17px;
-    width: 300px;
-    height: 256px;
-}
-h2{
-    font-size: 70px;
-    font-weight: 500;
-    margin: 0px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-h3{
-    margin: 0px;
-}
-.see{
-    width: 1047px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin:35px 0px 50px 0px;
-}
-h6{
-    color: #E02C6D;
-    font-size: 20px;
-
-}
-.fa-arrow-right.root{
-
-    color: #E02C6D;
-    font-size: 20px;
-    margin-left: 8px;
-}
-.button-2{
-    display: flex;
-    align-items: center;
-}
-/*----------------------------------------------- private-section---------------------------------*/
-
-.private-section{
-    width: 1047px;
-    border: 1px solid #ecd9d9;
-    background-color: white;
-    /* margin-left: 300px; */
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    /* margin: 0, auto; */
-   }
-   .finish{
-       margin-left: 80px;
-   }
-.end{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: cornsilk;
-}
-.personat-products img{
-    width: 404px;
-    height: 270px;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-
-
-
-
-
-
-
-        /*-------------------------------------------------*\
-                This is footer section of this projects 
-        /*----------------------------------------------------*/
-footer{
+        
+.footer-end{
     font-family: 'Poppins', sans-serif;
-    width: 1047px;
-    background-color: black;   
-    margin-top: 20px;
-    /* margin: 0, auto; */
+    max-width: 1200px;
+    margin: 0, auto;
+    background-color: black;
     
-}
+}     
 h2{
     font-size: 24px;
     font-weight: bold;
     line-height: 36px;
     color: white;
     text-align: center;
-    margin:0px 0px;
-}
-
+    /* margin:0px 0px; */
+} 
 p{
-    font-size: 14px;
-    /* font-weight: bold; */
+    font-size: 14px;  
+    font-weight: bold;
     line-height: 24px;
     color: white;
     text-align: center;
     margin:0px 0px;
 }
-.fa-instagram-square, .fa-dribbble-square, .fa-twitter-square, .fa-youtube-square{
+.fa-instagram-square .fa-dribbble-square .fa-twitter-square .fa-youtube-square{
     font-size: 23px;
-    color: white;
+    /* color: white; */
     margin-right: 16px;
 }
 .awesome-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+   
 }
 .footer{
-    width: 262px;
-    height: 139px;
-    margin-left: 392.5px;
-    padding-top: 25px;
-    background-color: black;
-    margin-top: 100px;
-}
+        background-color: black
+    
+} 
 
 /*------------------------------------- responsive section------------------------------------------ */
-@media screen and(max-width : 688px){
-    .menu-bar{
-           flex-direction : column;
-    }
-    .section-1{
-        background-color: darkgoldenrod;
-       display: flex;
-       flex-direction: column;
-    }
-    .prodects{
-        background-color : red;
-grid-template-columns : repeat(1, 1fr);}
-
-    }
-    
-
-    /* .animate{
-    font-size: 60px;
-    white-space: nowrap;
-    position: relative;
-    color:transparent;
-}
-.animate::before{
-    content:'Strat your journey as influencer';
-    position: absolute;
-    top:0;
-    left:0;
-    color:#22bedd;
-    animation: typing 3s liner infinite;
-}
-@keyframes typing {
-    contaier{
-        width : 100%;}
-        
-        0%{
-            content: 'S|';
-        }
-        2%{
-            content: 't|';
-        }
-        4%{
-            content: 'a|';
-        }
-        6%{
-            content: 't|';
-        }
-        8%{
-            content: '';
-        }
-        10%{
-            content: 'y|';
-        }
-        12%{
-            content: 'o|';
-        }
-        14%{
-            content: 'u|';
-        }
-        16%{
-            content: 'r|';
-        }
-        18%{
-            content: '';
-        }
-        20%{
-            content: 'j|';
-        }
-        22%{
-            content: 'o|';
-        }
-        24%{
-            content: 'u|';
-        }
-        26%{
-            content: 'r|';
-        }
-        28%{
-            content: 'n|';
-        }
-        30%{
-            content: 'e|';
-        }
-        32%{
-            content: 'y|';
-        }
-        34%{
-            content: ' ';
-        }
-        36%{
-            content: 'a|';
-        }
-        38%{
-            content: 's|';
-        }
-        40%{
-            content: ' ';
-        }
-        42%{
-            content: 'a|';
-        }
-        44%{
-            content: 's|';
-        }
-        46%{
-            content: ' ';
-        }
-        48%{
-            content: 'i|';
-        }
-        50%{
-            content: 'n|';
-        }
-        52%{
-            content: 'f|'; 
-        }
-        54%{
-            content: 'l|'; 
-        }
-        56%{
-            content: 'u|'; 
-        }
-        58%{
-            content: 'e|'; 
-        }
-        60%{
-            content: 'n|'; 
-        }
-        62%{
-            content: 'c|'; 
-        }
-        64%{
-            content: 'e|'; 
-        }
-        66%{
-            content: 'r|'; 
-        }
-        68%{
-            content: '  ';
-        }
-       
-        69%{
-            content: 'r|'; 
-        }
-        70%{
-            content: 'e|'; 
-        }
-        71%{
-            content: 'c|'; 
-        }
-        72%{
-            content: 'n|'; 
-        }
-        73%{
-            content: 'e|'; 
-        }
-        74%{
-            content: 'u|'; 
-        }
-        75%{
-            content: 'l|'; 
-        }
-        76%{
-            content: 'f|'; 
-        }
-        77%{
-            content: 'n|'; 
-        }
-        78%{
-            content: 'i|'; 
-        }
-        79%{
-            content: ' '; 
-        }
-        80%{
-            content: 's|'; 
-        }
-        81%{
-            content: 'a|'; 
-        }
-        82%{
-            content: ' '; 
-        }
-        83%{
-            content: 'y|'; 
-        }
-        84%{
-            content: 'e|'; 
-        }
-        85%{
-            content: 'n|'; 
-        }
-        86%{
-            content: 'r|'; 
-        }
-        87%{
-            content: 'u|'; 
-        }
-        88%{
-            content: 'o|'; 
-        }
-        89%{
-            content: 'j|'; 
-        }
-        90%{
-            content: 'r|'; 
-        }
-        91%{
-            content: 'u|'; 
-        }
-        92%{
-            content: 'o|'; 
-        }
-        93%{
-            content: 'y|'; 
-        }
-        94%{
-            content: 'r|'; 
-        }
-        95%{
-            content: ' '; 
-        }
-        96%{
-            content: 't|'; 
-        }
-        97%{
-            content: 'r|'; 
-        }
-        98%{
-            content: 'a|'; 
-        }
-        99%{
-            content: 't|'; 
-        }
-        100%{
-            content: 'S|'; 
-        }*/ 
