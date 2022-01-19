@@ -343,16 +343,22 @@ body{
 }
 .end{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
+    margin: 0 60px;
+    padding: 20px;
+    border: 2px solid #fafad2;
+    border-radius: 15px;
+    background-color: lightgrey;
+    
 }
 .personat-products{
-    flex: 1;
-    margin-left: 50px;
-    margin-bottom: 40px;
+   margin-left: 20px;
+    
+    
 }
 .finish{
-    flex: 1;
+    /* margin-left: 40px; */
 }
 .but{
     background-color: #E02C6D;
@@ -364,8 +370,9 @@ body{
 .footer-end{
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
-    margin: 0, auto;
+    margin: 0 auto;
     background-color: black;
+    height: 35vh;
     
 }     
 h2{
@@ -400,5 +407,8 @@ p{
         background-color: black
     
 } 
+.finish{
+    margin:30px 0;
+}
 
 /*------------------------------------- responsive section------------------------------------------ */
